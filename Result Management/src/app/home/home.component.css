@@ -1,0 +1,25 @@
+.hometext{
+  text-align: center;
+  margin-top: 50px;
+  font-weight: bold;
+}
+.teacher:hover{
+  color: black;
+}
+.student:hover{
+  color:black;
+}
+.teacher,.student{
+  height: 40px;
+  position: relative;
+  margin-top: 50px;
+}
+.student{
+  margin-left: 150px;
+  position: relative;
+}
+.wrapper{
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+}

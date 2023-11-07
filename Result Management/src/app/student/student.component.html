@@ -1,0 +1,26 @@
+<app-header></app-header>
+<h3>Your Result</h3>
+<div class="container">
+  <br><div class="btn-text-right">
+  	<button routerLink="" type="button" class="btn btn-primary" style="background-color: red;">Logout</button>
+  </div><br>
+  <table class="table table-dark table-hover">
+    <thead>
+      <tr>
+        <th>Roll No</th>
+        <th>Name</th>
+        <th>Date of Birth</th>
+        <th>Score</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>{{collection.rollno}}</td>
+        <td>{{collection.name}}</td>
+        <td>{{collection.dob}}</td>
+        <td>{{collection.score}}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+

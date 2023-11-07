@@ -1,0 +1,15 @@
+td a + a {
+  padding-left: 12px;
+}
+.backbut{
+  align-items:Right;
+}
+.btn-text-right{
+	text-align: right;
+}
+h3{
+  font-weight: bolder;
+  margin-top: 20px;
+  color: rgb(92, 203, 92);
+  text-align: center;
+}

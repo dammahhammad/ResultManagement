@@ -1,0 +1,63 @@
+{
+  "teacher": [
+    {
+      "id": 1,
+      "username": "40133",
+      "password": "262701"
+    },
+    {
+      "id": 2,
+      "username": "50411",
+      "password": "262701"
+    },
+    {
+      "id": 3,
+      "psername": "65784",
+      "password": "262701"
+    }
+  ],
+  "student": [
+    {
+      "name": "Hashsham",
+      "rollno": "40801",
+      "dob": "2002-03-07",
+      "score": "86",
+      "id": 7
+    },
+    {
+      "name": "Mohammad Hammad",
+      "rollno": "40802",
+      "dob": "1999-05-28",
+      "score": "87",
+      "id": 8
+    },
+    {
+      "name": "Peter",
+      "rollno": "40803",
+      "dob": "1999-05-15",
+      "score": "45",
+      "id": 9
+    },
+    {
+      "name": "Rihana",
+      "rollno": "40804",
+      "dob": "2001-08-28",
+      "score": "98",
+      "id": 10
+    },
+    {
+      "name": "samuael",
+      "rollno": "40805",
+      "dob": "2002-12-12",
+      "score": "69",
+      "id": 11
+    },
+    {
+      "name": "Quill",
+      "rollno": "40806",
+      "dob": "1998-02-24",
+      "score": "76",
+      "id": 12
+    }
+  ]
+}

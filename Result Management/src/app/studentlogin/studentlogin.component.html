@@ -1,0 +1,29 @@
+<app-header></app-header>
+<div class="container">
+  <div class="row">
+    <div class="col-md-6">
+      <div class="card">
+        <div *ngIf="alert" class="alert alert-success alert-dismissible container">
+          <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+          <strong>Error!</strong> Roll No and Date of Birth do not match.
+        </div>
+        <div class="text-center">
+          <h1>Result</h1>
+          <h6>Enter Roll No and Date of Birth.</h6>
+        </div>
+          <form [formGroup]="studentloginForm" (ngSubmit)="login()">
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Roll No</label>
+              <input formControlName="rollno" type="text" class="form-control" placeholder="Enter Roll No">
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Date of Birth</label>
+              <input formControlName="dob" type="date" class="form-control" placeholder="Enter Date of Birth">
+            </div>
+            <button type="submit" class="btn btn-primary">Login</button>
+            <button type="btn" class="btn btn-primary" routerLink="" style="margin-left: 10px;">Home</button>
+          </form>
+      </div>
+    </div>
+  </div>
+</div>
